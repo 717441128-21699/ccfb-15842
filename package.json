@@ -1,0 +1,22 @@
+{
+  "name": "muzzle-id",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "牛鼻纹识别投保理赔系统（WebGL2 增强 + Worker 特征比对 + 合成数据验证）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "bench": "tsx test/bench.node.ts",
+    "bench:quick": "tsx test/bench.node.ts --quick",
+    "bench:anchor": "tsx test/bench-anchor.ts",
+    "bench:anchor:quick": "tsx test/bench-anchor.ts --quick"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  }
+}
